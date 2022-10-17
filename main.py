@@ -74,7 +74,7 @@ async def anu(ctx, e):
 async def reg(ctx, e):
     a = len(e)
     if a == 36:    #  Checks if the message is 36 characters long
-      await ctx.send(f'Getting API ``bloxflip/API/{e}``')
+      await ctx.send(f'``Getting API bloxflip/API/{e}``')
       if checkid(e) == False:
         return
       await mines(ctx, e)    #  Starts the mine predictor
